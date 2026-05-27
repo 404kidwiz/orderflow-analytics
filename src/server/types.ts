@@ -35,7 +35,7 @@ export interface TradeEvent {
   gasPrice: bigint
   gasUsed: bigint
   isMEV: boolean
-  mevType?: 'arbitrage' | 'frontrun' | 'backrun' | 'sandwich' | 'latency'
+  mevType?: 'arbitrage' | 'frontrun' | 'backrun' | 'sandwich' | 'latency' | 'liquidation' | 'unknown'
   pool: `0x${string}`
   tokenIn: `0x${string}`
   tokenOut: `0x${string}`

@@ -1,4 +1,5 @@
 import Database from 'better-sqlite3'
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 import type { Logger } from '../logger.js'
 import type { TradeEvent, ExecutionQuality, Signal, Alert, LiquiditySlice } from '../types.js'
 
