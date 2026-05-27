@@ -1,5 +1,5 @@
 {
-  "name": "impeccable",
+  "name": "orderflow-analytics",
   "version": "0.1.0",
   "description": "Real-time orderflow analytics for onchain trading — Level 2 orderbook, MEV detection, and execution quality scoring",
   "type": "module",
